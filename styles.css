@@ -1,17 +1,44 @@
-* {
-  margin:0px;
-  padding:0px;
+body {
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 0 auto;   /* center content */
+  max-width: 800px; /* limit width */
+  line-height: 1.5;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+/* BEGIN (write your solution here) */
+p{
+margin-bottom: 12px;
+}
+h1,h2,h3{
+font-weight: 400
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h1{
+font-size: 36px;
+margin-bottom: 0px;
 }
+
+h2{
+font-size: 32px;
+margin-bottom: 8px;
+border-bottom-color: black;
+border-width:5px;
+}
+
+h3{
+font-size: 20px;
+margin-bottom: 0px;
+}
+
+#header{
+    align-content: center;
+    margin-bottom: 32px;
+}
+#footer{
+align-content: center;
+margin-top: 64px;
+}
+/* END */
